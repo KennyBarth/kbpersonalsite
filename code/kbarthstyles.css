@@ -247,7 +247,7 @@ footer{
 }
 /*MUSIC SECTION - IMAGE SPRITES*/
 #facebook, #instagram, #youtube{
-    background-image:url("ksocialsprite.png");
+    background-image:url("images/ksocialsprite.png");
     background-repeat:no-repeat;
     height: 57px;
     width:57px;
