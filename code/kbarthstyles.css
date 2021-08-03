@@ -190,8 +190,20 @@ footer{
     color:turquoise;
 }
 
-@media only screen and (max-width : 768px){
-
+@media only screen and (max-width : 1140px){
+    #mainphoto3{
+        display:none;
+    }
+}
+@media only screen and (max-width : 800px){
+    .photogone{
+        display:none;
+    }
+    .biocontent{
+        font-size:18px;
+        line-height:30px;
+        margin: 10px 50px 10px 50px;
+    }
 }
 /*MUSIC SECTION*/
 .centeredphotos{
@@ -244,6 +256,11 @@ footer{
     flex-flow:row wrap;
     justify-content:center;
 
+}
+@media only screen and (max-width : 1200px){
+    .vidcontainer{
+        flex-flow:column wrap;
+    }
 }
 /*MUSIC SECTION - IMAGE SPRITES*/
 #facebook, #instagram, #youtube{
